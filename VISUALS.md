@@ -1,12 +1,12 @@
-# Screenshots — Ananim Shield
+# Screenshots — Shield
 
 [English](#english) · [Português](#português)
 
 ## English
 
-**About the screenshots:** they are real captures of the production interface (November 2026). Client names, hostnames, IP addresses, users, e-mails and domains were replaced automatically at capture time by fictitious ones (e.g. `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); financial values are scrambled. Layout, features and workflows are exactly what runs in production.
+**About the screenshots:** they are real captures of the production interface (November 2026). Client names, hostnames, IP addresses, users, e-mails and domains were replaced automatically at capture time by fictitious ones (e.g. `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); cloud account names and the operator's brand are blurred; financial values are scrambled. Layout, features and workflows are exactly what runs in production.
 
-How anonymization works: a script injected into the browser rewrites every visible text node, input, tooltip, SVG label and canvas chart label before the screenshot is taken, using a fixed dictionary of real → fictitious names plus pattern rules for IPs, e-mails, domains, user names and currency values. Each image was then reviewed manually and checked by a leak scanner before publishing. Because values are scrambled, totals on financial screens are not meant to add up.
+How anonymization works: a script injected into the browser rewrites every visible text node, input, tooltip, SVG label and canvas chart label before the screenshot is taken, using a fixed dictionary of real → fictitious names plus pattern rules for IPs, e-mails, domains, user names and currency values; cloud account names and the operator's brand are blurred in place. Each image was then reviewed manually and checked by a leak scanner before publishing. Because values are scrambled, totals on financial screens are not meant to add up.
 
 `overview.png` is the main screen of the product, captured the same way.
 
@@ -25,9 +25,9 @@ How anonymization works: a script injected into the browser rewrites every visib
 
 ## Português
 
-**Sobre as imagens:** são capturas reais da interface em produção (novembro/2026). Nomes de clientes, hostnames, IPs, usuários, e-mails e domínios foram substituídos automaticamente no momento da captura por nomes fictícios (ex.: `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); valores financeiros estão embaralhados. Layout, funcionalidades e fluxos são exatamente os que rodam em produção.
+**Sobre as imagens:** são capturas reais da interface em produção (novembro/2026). Nomes de clientes, hostnames, IPs, usuários, e-mails e domínios foram substituídos automaticamente no momento da captura por nomes fictícios (ex.: `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); nomes das contas cloud e a marca da operadora aparecem borrados; valores financeiros estão embaralhados. Layout, funcionalidades e fluxos são exatamente os que rodam em produção.
 
-Como a anonimização funciona: um script injetado no navegador reescreve todo texto visível, campos, tooltips, rótulos SVG e rótulos de gráficos em canvas antes da captura, usando um dicionário fixo de nomes reais → fictícios e regras para IPs, e-mails, domínios, usuários e valores monetários. Cada imagem foi revisada manualmente e passou por um verificador de vazamento antes da publicação. Como os valores são embaralhados, os totais das telas financeiras não precisam fechar.
+Como a anonimização funciona: um script injetado no navegador reescreve todo texto visível, campos, tooltips, rótulos SVG e rótulos de gráficos em canvas antes da captura, usando um dicionário fixo de nomes reais → fictícios e regras para IPs, e-mails, domínios, usuários e valores monetários; nomes das contas cloud e a marca da operadora são borrados no lugar. Cada imagem foi revisada manualmente e passou por um verificador de vazamento antes da publicação. Como os valores são embaralhados, os totais das telas financeiras não precisam fechar.
 
 `overview.png` é a tela principal do produto, capturada da mesma forma.
 

@@ -1,4 +1,4 @@
-# Ananim Shield
+# Shield
 
 **Segurança de Aplicações e WAF** — proteção de aplicações com mudanças controladas.
 
@@ -6,9 +6,9 @@
 
 Camada de proteção para aplicações HTTP/HTTPS com painel de gestão, políticas, eventos, alertas e um fluxo controlado de publicação. Combina um motor WAF reconhecido (Nginx + ModSecurity + OWASP CRS) com componentes de gestão e operação construídos para organizar regras, explicar decisões e reverter mudanças com segurança.
 
-![Ananim Shield — visão geral (interface real, dados anonimizados)](overview.png)
+![Shield — visão geral (interface real, dados anonimizados)](overview.png)
 
-> **Portfólio de Gustavo Souza.** **Sobre as imagens:** são capturas reais da interface em produção (novembro/2026). Nomes de clientes, hostnames, IPs, usuários, e-mails e domínios foram substituídos automaticamente no momento da captura por nomes fictícios (ex.: `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); valores financeiros estão embaralhados. Layout, funcionalidades e fluxos são exatamente os que rodam em produção.
+> **Portfólio de Gustavo Souza.** **Sobre as imagens:** são capturas reais da interface em produção (novembro/2026). Nomes de clientes, hostnames, IPs, usuários, e-mails e domínios foram substituídos automaticamente no momento da captura por nomes fictícios (ex.: `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); nomes das contas cloud e a marca da operadora aparecem borrados; valores financeiros estão embaralhados. Layout, funcionalidades e fluxos são exatamente os que rodam em produção.
 
 ## O problema
 
@@ -31,7 +31,7 @@ Ativar regras de proteção sem contexto pode bloquear tráfego legítimo. O des
 
 ## White-label e pronto para SaaS
 
-O Ananim Shield foi construído para ser **white-label**. Nome, logo, cores, papel timbrado dos relatórios, lista de clientes, contas cloud e integrações são configuração — não estão fixos no código. A mesma plataforma pode ser:
+O Shield foi construído para ser **white-label**. Nome, logo, cores, papel timbrado dos relatórios, lista de clientes, contas cloud e integrações são configuração — não estão fixos no código. A mesma plataforma pode ser:
 
 - **implantada para qualquer empresa** — MSP, revenda de cloud, provedor de serviços gerenciados ou time interno de TI;
 - **operada como single-tenant** (uma empresa, na própria infraestrutura) ou **multi-tenant**, com cada cliente isolado por escopo validado no backend;
@@ -164,8 +164,8 @@ O código-fonte é mantido em repositório privado. Este repositório é um port
 
 ## Projetos relacionados
 
-- [Ananim NOC](https://github.com/gsouzacloud/ananim-noc-portfolio) — operação, correlação, usuários e segurança
-- [AnanimCloudReport](https://github.com/gsouzacloud/ananim-cloud-report-portfolio) — FinOps e governança cloud
-- [Ananim Shield](https://github.com/gsouzacloud/ananim-application-shield-portfolio) — WAF e segurança de aplicações
+- [NOC Operation Center](https://github.com/gsouzacloud/noc-operation-center-portfolio) — operação, correlação, usuários e segurança
+- [Cloud Report](https://github.com/gsouzacloud/cloud-report-portfolio) — FinOps e governança cloud
+- [Shield](https://github.com/gsouzacloud/shield-portfolio) — WAF e segurança de aplicações
 
 [Gustavo Souza no GitHub](https://github.com/gsouzacloud) · Documentação atualizada em 18/11/2026.

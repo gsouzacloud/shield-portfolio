@@ -1,4 +1,4 @@
-# Ananim Shield
+# Shield
 
 **Application Security & WAF** — application protection with controlled changes.
 
@@ -6,9 +6,9 @@
 
 A protection layer for HTTP/HTTPS applications with a management console, policies, events, alerts and a controlled publishing flow. It combines a recognized WAF engine (Nginx + ModSecurity + OWASP CRS) with management and operations components built to organize rules, explain decisions and roll back changes safely.
 
-![Ananim Shield — overview (real interface, anonymized data)](overview.png)
+![Shield — overview (real interface, anonymized data)](overview.png)
 
-> **Portfolio of Gustavo Souza.** **About the screenshots:** they are real captures of the production interface (November 2026). Client names, hostnames, IP addresses, users, e-mails and domains were replaced automatically at capture time by fictitious ones (e.g. `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); financial values are scrambled. Layout, features and workflows are exactly what runs in production.
+> **Portfolio of Gustavo Souza.** **About the screenshots:** they are real captures of the production interface (November 2026). Client names, hostnames, IP addresses, users, e-mails and domains were replaced automatically at capture time by fictitious ones (e.g. `CLIENTE ALFA`, `app2.exemplo.com`, `usuario.1`, `10.20.x.x`); cloud account names and the operator's brand are blurred; financial values are scrambled. Layout, features and workflows are exactly what runs in production.
 
 ## The problem
 
@@ -31,7 +31,7 @@ Turning on protection rules without context can block legitimate traffic. The ch
 
 ## White-label and SaaS-ready
 
-Ananim Shield was built to be **white-label**. Brand name, logo, colors, report letterhead, tenant list, cloud accounts and integrations are configuration — not hard-coded. The same platform can be:
+Shield was built to be **white-label**. Brand name, logo, colors, report letterhead, tenant list, cloud accounts and integrations are configuration — not hard-coded. The same platform can be:
 
 - **deployed for any company** — an MSP, a cloud reseller, a managed-services provider or an internal IT team;
 - **run single-tenant** (one company, on its own infrastructure) or **multi-tenant**, with every tenant isolated by scope validated in the backend;
@@ -164,8 +164,8 @@ The source code is kept in a private repository. This repository is a portfolio:
 
 ## Related projects
 
-- [Ananim NOC](https://github.com/gsouzacloud/ananim-noc-portfolio) — operations, correlation, users & security
-- [AnanimCloudReport](https://github.com/gsouzacloud/ananim-cloud-report-portfolio) — cloud FinOps & governance
-- [Ananim Shield](https://github.com/gsouzacloud/ananim-application-shield-portfolio) — WAF & application security
+- [NOC Operation Center](https://github.com/gsouzacloud/noc-operation-center-portfolio) — operations, correlation, users & security
+- [Cloud Report](https://github.com/gsouzacloud/cloud-report-portfolio) — cloud FinOps & governance
+- [Shield](https://github.com/gsouzacloud/shield-portfolio) — WAF & application security
 
 [Gustavo Souza on GitHub](https://github.com/gsouzacloud) · Documentation updated November 18, 2026.

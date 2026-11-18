@@ -1,4 +1,4 @@
-# Architecture — Ananim Shield
+# Architecture — Shield
 
 [English](#english) · [Português](#português)
 
